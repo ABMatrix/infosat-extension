@@ -301,13 +301,13 @@ const CreditContent = () => {
     icon: IconTypes;
     click: () => void;
   }[] = [
-    // {
-    //   label: 'SELL',
-    //   icon: 'sell',
-    //   click: () => {
-    //     window.open(`https://infosat.io/inscribe?op=airdrop`);
-    //   }
-    // },
+    {
+      label: 'SELL',
+      icon: 'sell',
+      click: () => {
+        window.open(`https://infosat.io/inscribe?op=sell`);
+      }
+    },
     {
       label: 'AIRDROP',
       icon: 'airdrop',
